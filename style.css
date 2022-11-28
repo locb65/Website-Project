@@ -1,0 +1,230 @@
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 100%;
+}
+.navbar {
+	position: absolute;
+	top: 0;
+	width: 100%
+}
+li {
+	font-size:12px;
+	margin:0 auto;
+	padding-right: 5px;
+}
+.symbol {
+	width: 40px;
+	height: 20;
+}
+.left {
+    float:left;
+    padding-left:10px;
+    height: 100%;
+    margin-top: 10px;
+    color: white;
+    
+}
+.header {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+.wonderful-world {
+	position: absolute;
+	text-align: right;
+	transform: rotate(-15deg);
+	color: white;
+}
+
+.button {
+	position:absolute;
+	bottom: 10px;
+	right: auto;
+	left: auto;
+	border: skyblue;
+	background: #3693D6;
+	border-radius: 25px;
+	padding: 1px 5px 1px 5px;
+	color: white;
+	
+}
+.navbar ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	 
+}
+#nav {
+   float:right;
+    padding-right: 10px;
+    margin: auto;
+
+}
+.header img{
+	width: 100%;
+	Height: 100%
+}
+a {
+	color: white; 
+  	text-decoration: inherit; 
+	margin-right: 0 auto;
+	padding-right:0 auto;
+}
+a:hover {
+	text-decoration: none;
+}
+.aboutme {
+	background-color:#3693D6 ;
+	text-align: center;
+	color: white;
+}
+.ourwork{
+	text-align: center;
+	color: #3693D6;
+	font-size: 16px;
+}
+.photo img{
+ 	width: 100%;
+    height: 100%;
+}
+.overlay {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.photo-overlay {
+	position: absolute;
+	z-index: 2;
+}
+.overlay-body {
+	position: absolute;
+	color:	white;
+}
+.girl {
+	border-radius: 50%;
+}
+.girl {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50%;
+	width: 50%;
+  	position: relative;
+  	overflow: hidden;
+  	border-radius: 50%; 
+  	margin-right: auto;
+  	margin-left: auto;
+
+}
+.girlpic {
+	height: 50%;
+	width: 50%; 
+}
+.testimonial {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #3693D6;
+}
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+.footernav {
+	display:grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 40% 15% 15% 15% 15%;
+	background-color: #3693D6;
+	gap: 10px;
+}
+.bottomsnow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 10px;
+	color: white;
+}
+.Location {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 8px;
+	color: white;
+}
+.Email {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 8px;
+	color: white;
+}
+.Phone {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 8px;
+	color: white;
+}
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50%;
+}
+.mount {
+	color: #9BC0FF
+}
+.symbolbottom {
+	width: 50px;
+	height: 30px;
+}
+.seemore {
+	text-decoration: none;
+	border-radius: 25px;
+	padding: 1px 5px 1px 5px;
+	color: white;
+	border:1px white;
+}
+
+@media screen and (max-width: 576px) {
+}
+@media screen and (min-width: 768px) {
+.body {
+	width: 100%;
+}
+.footernav {
+	grid-template-columns: repeat(8, 2fr)
+}
+.footer {
+	font-size: 	14px;
+
+}
+.work {
+	font-size: 	28px;
+}
+.ourwork {
+	font-size: 	28px;
+}
+.wonderful-world {
+	font-size: 	42px;
+}
+li {
+	font-size: 	24px;
+}
+.left {
+	font-size: 	28px;
+
+}
+}
